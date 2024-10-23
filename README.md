@@ -19,10 +19,10 @@ with mlflow.start_run():
 5. Create EC2 Machine and add security groups 5000 port 
 
 Run the following command on EC2 Machine 
-'''bash 
+```bash 
 sudo apt update 
 sudo apt install python3-pip 
 sudo pip3 install pipenv
 sudo pip3 install virtualenv 
 mkdir mlflow 
-'''
+```
